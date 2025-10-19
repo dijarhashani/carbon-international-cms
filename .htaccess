@@ -1,0 +1,21 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect root URL (/carbon-cms/) to /frontend/templates/pages/home.php
+RewriteRule ^$ /carbon-cms/frontend/templates/pages/home.php [L]
+
+
+# Redirect /about to /frontend/templates/pages/about.php
+RewriteRule ^about$ /carbon-cms/frontend/templates/pages/about.php [L]
+
+# Redirect /projects to /frontend/templates/pages/projects.php
+RewriteRule ^projects$ /carbon-cms/frontend/templates/pages/projects.php [L]
+
+# Optionally, ensure that direct access to .htaccess is not allowed
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Optional: Redirect 404 errors to a custom error page
+ErrorDocument 404 /frontend/templates/pages/404.php

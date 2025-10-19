@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Light';
+    src: url('../fonts/urbane/Urbane-Light.woff2') format('woff2'),
+         url('../fonts/urbane/Urbane-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Thin';
+    src: url('../fonts/urbane/Urbane-Thin.woff2') format('woff2'),
+         url('../fonts/urbane/Urbane-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('../fonts/urbane/Urbane-Medium.woff2') format('woff2'),
+         url('../fonts/urbane/Urbane-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Extra Light';
+    src: url('../fonts/urbane/Urbane-ExtraLight.woff2') format('woff2'),
+         url('../fonts/urbane/Urbane-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
